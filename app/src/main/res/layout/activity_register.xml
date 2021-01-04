@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA54DF"
+        tools:context=".RegisterActivity">
+
+
+    <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="2dp"
+            android:background="#9D30AF"
+            app:srcCompat="@drawable/logoapp" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Select your choice"
+                android:textColor="#FFFDE7"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        <Spinner
+                android:id="@+id/spnr_regId"
+                style="@android:style/Widget.DeviceDefault.Light.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_round"
+                android:entries="@array/register_array"
+                android:spinnerMode="dropdown" />
+
+        <EditText
+                android:id="@+id/edittxt_username"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/spinner_round"
+                android:gravity="center"
+                android:hint="Full Name(eg Mia Phillips)"
+                android:inputType="textPersonName"
+                android:textColor="#F9FBE7"
+                android:textColorHint="#F9FBE7"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        <EditText
+                android:id="@+id/edittxt_id"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/spinner_round"
+                android:gravity="center"
+                android:hint="Enter Staff/Student Id "
+                android:inputType="number|textPersonName"
+                android:textColor="#F9FBE7"
+                android:textColorHint="#F9FBE7"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+        <EditText
+                android:id="@+id/edittxt_email"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/spinner_round"
+                android:gravity="center"
+                android:hint="Email ID(Username)"
+                android:inputType="textEmailAddress"
+                android:textColor="#F9FBE7"
+                android:textColorHint="#F9FBE7"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        <EditText
+                android:id="@+id/txt_password"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/spinner_round"
+                android:gravity="center"
+                android:hint="Password"
+                android:textColor="#F9FBE7"
+                android:textColorHint="#F9FBE7"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        <Button
+                android:id="@+id/btn_nxt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/button3_round"
+                android:onClick="moveToReg2Screen"
+                android:text="NEXT"
+                android:textColor="#FDD835"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>

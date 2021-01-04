@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Reg_sems">
+        <item>Semester I</item>
+        <item>Semester II</item>
+        <item>Semester III</item>
+        <item>Semester IV</item>
+        <item>Semester V</item>
+        <item>Semester VI</item>
+
+    </string-array>
+</resources>

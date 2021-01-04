@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Reg_depts">
+        <item>BMS</item>
+        <item>BMM</item>
+        <item>Bioanalytical sciences</item>
+        <item>Biochemistry</item>
+        <item>Biotechnology</item>
+        <item>Botany</item>
+        <item>Chemistry</item>
+        <item>Commerce</item>
+        <item>Computer Science</item>
+        <item>Comprehensive</item>
+        <item>DMLT</item>
+        <item>Economics</item>
+        <item>English</item>
+        <item>Hindi</item>
+        <item>History</item>
+        <item>Information Technology</item>
+        <item>Library</item>
+        <item>Mathematics</item>
+        <item>Microbiology</item>
+        <item>Physics</item>
+        <item>Politics</item>
+        <item>Philosophy</item>
+        <item>Psychology</item>
+        <item>Statistics</item>
+        <item>Zoology</item>
+    </string-array>
+</resources>

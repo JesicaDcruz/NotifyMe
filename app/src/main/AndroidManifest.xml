@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.example.notifymeproject">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+            android:name=".FirebaseOfflineService"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_notifylogo_new"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_notifylogo_new_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".ViewAssociations"></activity>
+
+
+        <meta-data
+                android:name="com.google.firebase.messaging.default_notification_icon"
+                android:resource="@drawable/notify_logo" />
+        <meta-data
+                android:name="com.google.firebase.messaging.default_notification_channel_id"
+                android:value="@string/notifyme_notifcations" />
+
+        <service
+                android:name=".FCMService"
+                android:enabled="true"
+                android:exported="false"
+                android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".ChatsActivity" >
+            <intent-filter>
+                <action android:name="ChatsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewNotification">
+            <intent-filter>
+                <action android:name="ViewNotification" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ManageNotifications" />
+        <activity android:name=".joinAssociation" />
+        <activity android:name=".StaffViewFiles" />
+        <activity android:name=".Viewfiles" />
+        <activity android:name=".view_files_by_me" />
+        <activity android:name=".Edit_profile" />
+        <activity android:name=".Upload_files" />
+        <activity android:name=".StaffHomeAcrivity" />
+        <activity android:name=".RegisterActivity_3" />
+        <activity android:name=".RegisterActivity_2" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+    </application>
+
+</manifest>

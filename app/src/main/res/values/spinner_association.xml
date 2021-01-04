@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Reg_association" >
+        <item>Biotechnology Association</item>
+        <item>Chemistry Association</item>
+        <item>Computer Science Association</item>
+        <item>Commerce Association</item>
+        <item>Cultural Activity Association</item>
+        <item>Economics Association</item>
+        <item>English Association</item>
+        <item>Hindi Association</item>
+        <item>History Association</item>
+        <item>IT Association</item>
+        <item>Malyalam Association</item>
+        <item>Mathematics Association</item>
+        <item>Microbiology Association</item>
+        </string-array>
+</resources>

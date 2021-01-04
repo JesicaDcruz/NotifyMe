@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA54DF"
+        tools:context=".RegisterActivity_2">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical">
+
+
+        <TextView
+                android:id="@+id/txtvw_class"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Select your Course :"
+                android:textColor="#FFFDE7"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        <Spinner
+                android:id="@+id/spin_course"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spin_reg2_round" />
+
+        <TextView
+                android:id="@+id/txtvw_dept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Select your Department"
+                android:textColor="#FFFDE7"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        <Spinner
+                android:id="@+id/spin_dept"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spin_reg2_round" />
+
+        <TextView
+                android:id="@+id/txtvw_sem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Select your Current Semester"
+                android:textColor="#FFFDE7"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        <Spinner
+                android:id="@+id/spin_sem"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spin_reg2_round" />
+
+        <EditText
+                android:id="@+id/edittxt_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/spin_reg2_round"
+                android:gravity="center"
+                android:hint="Enter Mobile Number"
+                android:inputType="number"
+                android:textColor="#FFFDE7"
+                android:textColorHint="#FFFDE7"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        <Button
+                android:id="@+id/btn_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/button4_round"
+                android:onClick="moveToHome"
+                android:text="REGISTER"
+                android:textColor="#FDD835"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

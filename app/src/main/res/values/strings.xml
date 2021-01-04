@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NotifyMe</string>
+    <string name="notifyme_notifcations">NotifyMeProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fcmserverkey">AAAAXN2U_O4:APA91bFfKwHfZALysYSXt-DAjvS8QuJyh00znYLwtYH1k9RcPCvkC19hww72n5-y-sOqagcQAp6rHwS8iRjCb4lkQSUtnbCXzDxsjOCMgc77uGxeH0KHvFPnNqCqfL8WZ66VwTOQJvIA</string>
+
+</resources>

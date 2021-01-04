@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA54DF"
+        tools:context=".RegisterActivity_3">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Select Your Department"
+                android:textColor="#F9FBE7"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        <Spinner
+                android:id="@+id/spn_dep2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/text_round" />
+
+
+        <EditText
+                android:id="@+id/edittxt_mobStaff"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/text_round"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Mobile Number"
+                android:inputType="number"
+                android:textColor="#F9FBE7"
+                android:textColorHint="#F9FBE7"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        <Button
+                android:id="@+id/btn_Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/btn_reg_rnd"
+                android:gravity="center"
+                android:onClick="moveToStaffHome"
+                android:text="REGISTER"
+                android:textColor="#FDD835"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

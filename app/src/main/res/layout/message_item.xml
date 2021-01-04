@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <LinearLayout
+                android:id="@+id/ll_mggtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+            <RelativeLayout
+                    android:id="@+id/ll_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                <TextView
+                        android:id="@+id/txt_msgtime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="45dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="Time"
+                        android:textColor="#222225"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+                <TextView
+                        android:id="@+id/txt_msgtitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="45dp"
+                        android:gravity="start"
+                        android:inputType="textMultiLine"
+                        android:text="Random Text"
+                        android:textColor="#222225"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+
+                <ImageButton
+                        android:id="@+id/img_delete"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/delete_logo" />
+
+                <!--                <TextView
+                        android:id="@+id/txt_msgtime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Time"
+                        android:textColor="#222225"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />-->
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>

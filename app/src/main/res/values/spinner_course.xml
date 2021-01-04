@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Reg_course">
+        <item>B.A</item>
+        <item>B.Com</item>
+        <item>B.Sc</item>
+        <item>M.sc</item>
+    </string-array>
+</resources>
